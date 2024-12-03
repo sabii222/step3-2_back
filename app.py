@@ -4,7 +4,7 @@ import os # 追加環境変数を取得するためのモジュール
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": [
-    "tech0-gen-8-step3-testapp-node2-22.azurewebsites.net",
+    "https://tech0-gen-8-step3-testapp-node2-22.azurewebsites.net",
     "http://localhost:3000" # ローカル開発用
 ]
                                 }})  # CORS設定を更新
